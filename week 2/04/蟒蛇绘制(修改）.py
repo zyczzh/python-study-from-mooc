@@ -1,9 +1,10 @@
+#理解前要先看随机的那个py
 import turtle
 import random
 def drawSnake(rad,angle,len,neckrad):
     setcolor=['A','B','C','D','E','F',1,2,3,4,5,6,7,8,9,0]
     for i in range(len):
-        color=random.sample(setcolor,6)
+        color=random.sample(setcolor,6)#随机抽取6个字符
         a="#"
         for j in color:
             a=a+str(j)
